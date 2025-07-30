@@ -1,0 +1,253 @@
+== Stage ID: 13 ==
+[
+  {
+    "_class": "io.jenkins.blueocean.rest.impl.pipeline.PipelineStepImpl",
+    "_links": {
+      "self": {
+        "_class": "io.jenkins.blueocean.rest.hal.Link",
+        "href": "/blue/rest/organizations/jenkins/pipelines/CC3/branches/master/runs/1/nodes/13/steps/7/"
+      },
+      "actions": {
+        "_class": "io.jenkins.blueocean.rest.hal.Link",
+        "href": "/blue/rest/organizations/jenkins/pipelines/CC3/branches/master/runs/1/nodes/13/steps/7/actions/"
+      }
+    },
+    "actions": [
+      {
+        "_class": "org.jenkinsci.plugins.workflow.support.actions.LogStorageAction",
+        "_links": {
+          "self": {
+            "_class": "io.jenkins.blueocean.rest.hal.Link",
+            "href": "/blue/rest/organizations/jenkins/pipelines/CC3/branches/master/runs/1/nodes/13/steps/7/log/"
+          }
+        },
+        "urlName": "log"
+      }
+    ],
+    "displayDescription": null,
+    "displayName": "Check out from version control",
+    "durationInMillis": 2090,
+    "id": "7",
+    "input": null,
+    "result": "SUCCESS",
+    "startTime": "2025-07-30T12:53:52.624-0400",
+    "state": "FINISHED",
+    "type": "STEP"
+  },
+  {
+    "_class": "io.jenkins.blueocean.rest.impl.pipeline.PipelineStepImpl",
+    "_links": {
+      "self": {
+        "_class": "io.jenkins.blueocean.rest.hal.Link",
+        "href": "/blue/rest/organizations/jenkins/pipelines/CC3/branches/master/runs/1/nodes/13/steps/14/"
+      },
+      "actions": {
+        "_class": "io.jenkins.blueocean.rest.hal.Link",
+        "href": "/blue/rest/organizations/jenkins/pipelines/CC3/branches/master/runs/1/nodes/13/steps/14/actions/"
+      }
+    },
+    "actions": [
+      {
+        "_class": "org.jenkinsci.plugins.workflow.support.actions.LogStorageAction",
+        "_links": {
+          "self": {
+            "_class": "io.jenkins.blueocean.rest.hal.Link",
+            "href": "/blue/rest/organizations/jenkins/pipelines/CC3/branches/master/runs/1/nodes/13/steps/14/log/"
+          }
+        },
+        "urlName": "log"
+      }
+    ],
+    "displayDescription": "Setting up environment...",
+    "displayName": "Print Message",
+    "durationInMillis": 62,
+    "id": "14",
+    "input": null,
+    "result": "SUCCESS",
+    "startTime": "2025-07-30T12:53:55.240-0400",
+    "state": "FINISHED",
+    "type": "STEP"
+  }
+]
+== Stage ID: 18 ==
+[
+  {
+    "_class": "io.jenkins.blueocean.rest.impl.pipeline.PipelineStepImpl",
+    "_links": {
+      "self": {
+        "_class": "io.jenkins.blueocean.rest.hal.Link",
+        "href": "/blue/rest/organizations/jenkins/pipelines/CC3/branches/master/runs/1/nodes/18/steps/19/"
+      },
+      "actions": {
+        "_class": "io.jenkins.blueocean.rest.hal.Link",
+        "href": "/blue/rest/organizations/jenkins/pipelines/CC3/branches/master/runs/1/nodes/18/steps/19/actions/"
+      }
+    },
+    "actions": [
+      {
+        "_class": "org.jenkinsci.plugins.workflow.support.actions.LogStorageAction",
+        "_links": {
+          "self": {
+            "_class": "io.jenkins.blueocean.rest.hal.Link",
+            "href": "/blue/rest/organizations/jenkins/pipelines/CC3/branches/master/runs/1/nodes/18/steps/19/log/"
+          }
+        },
+        "urlName": "log"
+      }
+    ],
+    "displayDescription": "Building project...",
+    "displayName": "Print Message",
+    "durationInMillis": 65,
+    "id": "19",
+    "input": null,
+    "result": "SUCCESS",
+    "startTime": "2025-07-30T12:53:55.705-0400",
+    "state": "FINISHED",
+    "type": "STEP"
+  }
+]
+== Stage ID: 23 ==
+[
+  {
+    "_class": "io.jenkins.blueocean.rest.impl.pipeline.PipelineStepImpl",
+    "_links": {
+      "self": {
+        "_class": "io.jenkins.blueocean.rest.hal.Link",
+        "href": "/blue/rest/organizations/jenkins/pipelines/CC3/branches/master/runs/1/nodes/23/steps/24/"
+      },
+      "actions": {
+        "_class": "io.jenkins.blueocean.rest.hal.Link",
+        "href": "/blue/rest/organizations/jenkins/pipelines/CC3/branches/master/runs/1/nodes/23/steps/24/actions/"
+      }
+    },
+    "actions": [
+      {
+        "_class": "org.jenkinsci.plugins.workflow.support.actions.LogStorageAction",
+        "_links": {
+          "self": {
+            "_class": "io.jenkins.blueocean.rest.hal.Link",
+            "href": "/blue/rest/organizations/jenkins/pipelines/CC3/branches/master/runs/1/nodes/23/steps/24/log/"
+          }
+        },
+        "urlName": "log"
+      }
+    ],
+    "displayDescription": "Running tests...",
+    "displayName": "Print Message",
+    "durationInMillis": 100,
+    "id": "24",
+    "input": null,
+    "result": "SUCCESS",
+    "startTime": "2025-07-30T12:53:56.151-0400",
+    "state": "FINISHED",
+    "type": "STEP"
+  }
+]
+== Stage ID: 28 ==
+[
+  {
+    "_class": "io.jenkins.blueocean.rest.impl.pipeline.PipelineStepImpl",
+    "_links": {
+      "self": {
+        "_class": "io.jenkins.blueocean.rest.hal.Link",
+        "href": "/blue/rest/organizations/jenkins/pipelines/CC3/branches/master/runs/1/nodes/28/steps/29/"
+      },
+      "actions": {
+        "_class": "io.jenkins.blueocean.rest.hal.Link",
+        "href": "/blue/rest/organizations/jenkins/pipelines/CC3/branches/master/runs/1/nodes/28/steps/29/actions/"
+      }
+    },
+    "actions": [
+      {
+        "_class": "org.jenkinsci.plugins.workflow.support.actions.LogStorageAction",
+        "_links": {
+          "self": {
+            "_class": "io.jenkins.blueocean.rest.hal.Link",
+            "href": "/blue/rest/organizations/jenkins/pipelines/CC3/branches/master/runs/1/nodes/28/steps/29/log/"
+          }
+        },
+        "urlName": "log"
+      }
+    ],
+    "displayDescription": "Deploying application...",
+    "displayName": "Print Message",
+    "durationInMillis": 67,
+    "id": "29",
+    "input": null,
+    "result": "SUCCESS",
+    "startTime": "2025-07-30T12:53:56.775-0400",
+    "state": "FINISHED",
+    "type": "STEP"
+  }
+]
+== Stage ID: 33 ==
+[
+  {
+    "_class": "io.jenkins.blueocean.rest.impl.pipeline.PipelineStepImpl",
+    "_links": {
+      "self": {
+        "_class": "io.jenkins.blueocean.rest.hal.Link",
+        "href": "/blue/rest/organizations/jenkins/pipelines/CC3/branches/master/runs/1/nodes/33/steps/34/"
+      },
+      "actions": {
+        "_class": "io.jenkins.blueocean.rest.hal.Link",
+        "href": "/blue/rest/organizations/jenkins/pipelines/CC3/branches/master/runs/1/nodes/33/steps/34/actions/"
+      }
+    },
+    "actions": [
+      {
+        "_class": "org.jenkinsci.plugins.workflow.support.actions.LogStorageAction",
+        "_links": {
+          "self": {
+            "_class": "io.jenkins.blueocean.rest.hal.Link",
+            "href": "/blue/rest/organizations/jenkins/pipelines/CC3/branches/master/runs/1/nodes/33/steps/34/log/"
+          }
+        },
+        "urlName": "log"
+      }
+    ],
+    "displayDescription": "Sleeping for 5 seconds...",
+    "displayName": "Print Message",
+    "durationInMillis": 104,
+    "id": "34",
+    "input": null,
+    "result": "SUCCESS",
+    "startTime": "2025-07-30T12:53:57.230-0400",
+    "state": "FINISHED",
+    "type": "STEP"
+  },
+  {
+    "_class": "io.jenkins.blueocean.rest.impl.pipeline.PipelineStepImpl",
+    "_links": {
+      "self": {
+        "_class": "io.jenkins.blueocean.rest.hal.Link",
+        "href": "/blue/rest/organizations/jenkins/pipelines/CC3/branches/master/runs/1/nodes/33/steps/35/"
+      },
+      "actions": {
+        "_class": "io.jenkins.blueocean.rest.hal.Link",
+        "href": "/blue/rest/organizations/jenkins/pipelines/CC3/branches/master/runs/1/nodes/33/steps/35/actions/"
+      }
+    },
+    "actions": [
+      {
+        "_class": "org.jenkinsci.plugins.workflow.support.actions.LogStorageAction",
+        "_links": {
+          "self": {
+            "_class": "io.jenkins.blueocean.rest.hal.Link",
+            "href": "/blue/rest/organizations/jenkins/pipelines/CC3/branches/master/runs/1/nodes/33/steps/35/log/"
+          }
+        },
+        "urlName": "log"
+      }
+    ],
+    "displayDescription": "5",
+    "displayName": "Sleep",
+    "durationInMillis": 5085,
+    "id": "35",
+    "input": null,
+    "result": "SUCCESS",
+    "startTime": "2025-07-30T12:53:57.334-0400",
+    "state": "FINISHED",
+    "type": "STEP"
+  }
+]

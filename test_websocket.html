@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WebSocket Test</title>
+    <script src="https://cdn.socket.io/4.6.1/socket.io.min.js"></script>
+</head>
+<body>
+    <h1>WebSocket Connection Test</h1>
+    <div id="status">Connecting...</div>
+    <div id="data"></div>
+    
+    <script>
+        const socket = io('http://localhost:5001');
+        
+        socket.on('connect', () => {
+            document.getElementById('status').innerHTML = '✅ Connected to WebSocket server';
+            console.log('Connected to server');
+        });
+        
+        socket.on('disconnect', () => {
+            document.getElementById('status').innerHTML = '❌ Disconnected from server';
+            console.log('Disconnected from server');
+        });
+        
+        socket.on('pipeline_update', (data) => {
+            console.log('Received pipeline update:', data);
+            document.getElementById('data').innerHTML = '<pre>' + JSON.stringify(data, null, 2) + '</pre>';
+        });
+        
+        socket.on('connect_error', (error) => {
+            console.error('Connection error:', error);
+            document.getElementById('status').innerHTML = '❌ Connection error: ' + error.message;
+        });
+    </script>
+</body>
+</html>
